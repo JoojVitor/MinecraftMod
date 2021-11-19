@@ -24,7 +24,7 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(5f)));
 
     public static final RegistryObject<Block> TITANIUM_ORE = registerBlock("titanium_ore",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f)));
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(3f)));
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
