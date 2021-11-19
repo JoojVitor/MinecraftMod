@@ -1,5 +1,6 @@
 package com.zenith.firstmod;
 
+import com.zenith.firstmod.block.ModBlocks;
 import com.zenith.firstmod.item.ModItems;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -33,6 +34,7 @@ public class FirstMod
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
 
