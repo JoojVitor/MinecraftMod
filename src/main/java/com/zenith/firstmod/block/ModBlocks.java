@@ -1,6 +1,7 @@
 package com.zenith.firstmod.block;
 
 import com.zenith.firstmod.FirstMod;
+import com.zenith.firstmod.block.custom.SpeedyBlock;
 import com.zenith.firstmod.item.ModCreativeModeTab;
 import com.zenith.firstmod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -29,6 +30,10 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(3f)
                     .requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> SPEEDY_BLOCK = registerBlock("speedy_block",
+            () -> new SpeedyBlock(BlockBehaviour.Properties.of(Material.WOOL)
+                    .strength(3f)));
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
