@@ -3,11 +3,15 @@
   "item.firstmod.raw_titanium": "Raw Titanium",
   "item.firstmod.titanium_nugget": "Titanium Nugget",
   "item.firstmod.tomato": "Tomato",
-  "item.firstmod.smart_blow_torch": "Smart Blow Torch",
+  "item.firstmod.smart_blow_torch": "\u00A7bSmart Blow Torch\u00A7r",
 
   "block.firstmod.titanium_block": "Titanium Block",
   "block.firstmod.titanium_ore": "Titanium Ore",
   "block.firstmod.speedy_block": "Speedy Block",
 
-  "itemGroup.firstModTab": "FirstMod Ore"
+  "itemGroup.firstModTab": "FirstMod Ore",
+
+  "tooltip.firstmod.blowtorch": "Hold \u00A7eSHIFT\u00A7r for more information.",
+  "tooltip.firstmod.blowtorch_shift": "Right-Click a block and see if you can blow torch it.",
+  "tooltip.block.firstmod.speedy_block": "Gives you speed effect when passing over it."
 }
