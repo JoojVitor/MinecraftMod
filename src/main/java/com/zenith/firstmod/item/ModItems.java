@@ -1,6 +1,7 @@
 package com.zenith.firstmod.item;
 
 import com.zenith.firstmod.FirstMod;
+import com.zenith.firstmod.item.custom.CoalCokeItem;
 import com.zenith.firstmod.item.custom.SmartBlowTorchItem;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.CreativeModeTab;
@@ -33,6 +34,9 @@ public class ModItems {
     public static final RegistryObject<Item> SMART_BLOW_TORCH = ITEMS.register("smart_blow_torch",
             () -> new SmartBlowTorchItem(new Item.Properties().tab(ModCreativeModeTab.FIRSTMOD_TAB)
                     .durability(64)));
+
+    public static final RegistryObject<Item> COAL_COKE = ITEMS.register("coal_coke",
+            () -> new CoalCokeItem(new Item.Properties().tab(ModCreativeModeTab.FIRSTMOD_TAB)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
