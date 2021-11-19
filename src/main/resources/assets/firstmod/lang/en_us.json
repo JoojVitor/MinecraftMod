@@ -6,9 +6,14 @@
   "item.firstmod.coal_coke": "Coal Coke",
   "item.firstmod.smart_blow_torch": "\u00A7bSmart Blow Torch\u00A7r",
 
+  "block.firstmod.speedy_block": "Speedy Block",
   "block.firstmod.titanium_block": "Titanium Block",
   "block.firstmod.titanium_ore": "Titanium Ore",
-  "block.firstmod.speedy_block": "Speedy Block",
+  "block.firstmod.titanium_stairs": "Titanium Stairs",
+  "block.firstmod.titanium_fence": "Titanium Fence",
+  "block.firstmod.titanium_fence_gate": "Titanium Fence Gate",
+  "block.firstmod.titanium_slab": "Titanium Slab",
+  "block.firstmod.titanium_wall": "Titanium Wall",
 
   "itemGroup.firstModTab": "FirstMod Ore",
 
